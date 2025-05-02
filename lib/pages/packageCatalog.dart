@@ -48,7 +48,10 @@ Widget buildProductCard(Package package) {
       padding: const EdgeInsets.all(16.0),
       child: Column(
         children: [
-          Image(image: AssetImage(package.imageUrl)),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(20),
+            child: Image(image: AssetImage(package.imageUrl)),
+          ),
           const SizedBox(height: 8.0),
           Text(
             package.name,

@@ -11,12 +11,17 @@ Display the information & Validate the input
 
 
 Page 2 - Menu Package Catalog
-    - 
+Display the basic and details information
+    - Type of menu, additional menu (New Section)
+    - List of menu package images
+    - Details of Menu package
 
 Page 3 - Order Checkout page 
-    - Display menu package item selected, detail view of selected menu package, total discount, total cost   
+Display the information & Validate the input 
+    - Menu package item selected, detail view of the selected menu package, input discount code,  overall total discount, overall total cost   
 
 Page 4 - Order Confirmation & Review page
+Display the information & accepting input
     - Display the Ratings & Reviews of the menu package order 
     - Give Ratings & Reviews 
 

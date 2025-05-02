@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class OrderConfirmationPage extends StatelessWidget {
+  const OrderConfirmationPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,8 +15,4 @@ class OrderConfirmationPage extends StatelessWidget {
       ),
     );
   }
-}
-
-void main() {
-  runApp(MaterialApp(home: OrderConfirmationPage()));
 }

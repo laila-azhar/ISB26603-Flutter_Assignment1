@@ -20,12 +20,11 @@ class _PackagedetailState extends State<Packagedetail> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Group Member Detail"),
+        title: Text("${widget.package.name} Detail"),
         backgroundColor: Theme.of(context).colorScheme.primary,
       ),
       body: SingleChildScrollView(
         child: Container(
-          // color: Colors.blue[100],
           child: Padding(
             padding: const EdgeInsets.all(16.0),
             child: Column(
@@ -60,7 +59,7 @@ class _PackagedetailState extends State<Packagedetail> {
                   text: widget.package.label,
                 ),
                 buildCardDetail(
-                  icon: Icons.price_change,
+                  icon: Icons.monetization_on,
                   color: Colors.green,
                   backgroundColor: Colors.green[50],
                   text: "\RM${widget.package.price.toStringAsFixed(2)}",
