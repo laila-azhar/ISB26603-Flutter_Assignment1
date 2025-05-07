@@ -73,7 +73,10 @@ class SidesPage extends StatelessWidget {
               categoryToString(
                 package.category,
               ), // Display category using switch
-              style: const TextStyle(fontSize: 14.0, color: Color.fromARGB(255, 226, 208, 135)),
+              style: const TextStyle(
+                fontSize: 14.0,
+                color: Color.fromARGB(255, 226, 208, 135),
+              ),
             ),
             const SizedBox(height: 4.0),
           ],

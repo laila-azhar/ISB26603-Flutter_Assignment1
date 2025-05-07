@@ -106,6 +106,7 @@ class _PackagedetailState extends State<Packagedetail> {
       ),
     );
   }
+
   Widget buildCardDetail({
     required IconData icon,
     required Color color,

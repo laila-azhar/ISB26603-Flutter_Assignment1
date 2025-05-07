@@ -25,9 +25,11 @@ class Package {
       category: MenuCategory.meal,
       details: [
         Detail('In the Set:', '1x Big Taco, 1x Soft Drink \n 1x Nacho'),
-        Detail('', 'A hearty combo featuring a taco, nachos, and a refreshing drink — perfect for big appetites!'),
+        Detail(
+          '',
+          'A hearty combo featuring a taco, nachos, and a refreshing drink — perfect for big appetites!',
+        ),
       ],
-
     ),
 
     Package(
@@ -38,9 +40,11 @@ class Package {
       category: MenuCategory.meal,
       details: [
         Detail('In the Set:', '2x Taco Supreme, 1x Soft Drink \n 1x Nacho '),
-        Detail('', 'Two hearty tacos stuffed with seasoned beef, beans, and fresh veggies — paired with nachos and Pepsi.'),
+        Detail(
+          '',
+          'Two hearty tacos stuffed with seasoned beef, beans, and fresh veggies — paired with nachos and Pepsi.',
+        ),
       ],
-
     ),
 
     Package(
@@ -51,9 +55,11 @@ class Package {
       category: MenuCategory.meal,
       details: [
         Detail('In the Set:', '1x Big Chicken Wrap, 1x Soft Drink \n 1x Nacho'),
-        Detail('', 'Crispy chicken wrapped in a soft tortilla, topped with lettuce and sauce — served with nachos and Pepsi.'),
+        Detail(
+          '',
+          'Crispy chicken wrapped in a soft tortilla, topped with lettuce and sauce — served with nachos and Pepsi.',
+        ),
       ],
-
     ),
 
     Package(
@@ -64,15 +70,14 @@ class Package {
       category: MenuCategory.meal,
       details: [
         Detail('In the Set:', '1x Grilled Tortilla, 1x Soft Drink \n 1x Nacho'),
-        Detail('', 'A grilled tortilla stuffed with beans, meat, cheese, and veggies — comes with nachos and a Pepsi.'),
+        Detail(
+          '',
+          'A grilled tortilla stuffed with beans, meat, cheese, and veggies — comes with nachos and a Pepsi.',
+        ),
       ],
-
     ),
 
-
-    
-      //ALACARTE
-    
+    //ALACARTE
     Package(
       name: 'Crunchwrap Supreme',
       label: 'Ala Carte',
@@ -81,11 +86,13 @@ class Package {
       category: MenuCategory.alaCarte,
       details: [
         Detail('In the Set:', 'Toasted Tortilla Wrap with Beef'),
-        Detail('', 'A hearty wrap packed with seasoned beef, crunchy tostada, fresh lettuce, tomatoes, cheese, and creamy sauce, all folded in a grilled tortilla for a satisfying bite.'),
+        Detail(
+          '',
+          'A hearty wrap packed with seasoned beef, crunchy tostada, fresh lettuce, tomatoes, cheese, and creamy sauce, all folded in a grilled tortilla for a satisfying bite.',
+        ),
       ],
-      
     ),
-    
+
     Package(
       name: 'KICKIN Chicken',
       label: 'Ala Carte',
@@ -94,10 +101,13 @@ class Package {
       category: MenuCategory.alaCarte,
       details: [
         Detail('In the Set:', 'Spicy Chicken Soft Tacos'),
-        Detail('', 'Two soft tortillas filled with crispy, spicy chicken strips, shredded lettuce, cheese, and zesty sauce—perfect for spice lovers.'),
+        Detail(
+          '',
+          'Two soft tortillas filled with crispy, spicy chicken strips, shredded lettuce, cheese, and zesty sauce—perfect for spice lovers.',
+        ),
       ],
     ),
-    
+
     Package(
       name: 'Chicken Quesadilla',
       label: 'Ala Carte',
@@ -106,7 +116,10 @@ class Package {
       category: MenuCategory.alaCarte,
       details: [
         Detail('In the Set:', 'Grilled Cheesy Chicken Slices'),
-        Detail('', 'Grilled flour tortilla stuffed with seasoned chicken, melty cheese, and savory sauce, cut into wedges for easy sharing or solo munching'),
+        Detail(
+          '',
+          'Grilled flour tortilla stuffed with seasoned chicken, melty cheese, and savory sauce, cut into wedges for easy sharing or solo munching',
+        ),
       ],
     ),
 
@@ -118,11 +131,14 @@ class Package {
       category: MenuCategory.alaCarte,
       details: [
         Detail('In the Set:', '1x Loaded Rice Bowl'),
-        Detail('', 'A colorful and filling bowl of Mexican-style rice, black beans, shredded cheese, salsa, fresh lettuce, crispy tortilla chips, and your choice of meat or vegetarian protein'),
+        Detail(
+          '',
+          'A colorful and filling bowl of Mexican-style rice, black beans, shredded cheese, salsa, fresh lettuce, crispy tortilla chips, and your choice of meat or vegetarian protein',
+        ),
       ],
     ),
+
     //SIDES
-    
     Package(
       name: 'Nacho Fries',
       label: 'Sides',
@@ -131,23 +147,27 @@ class Package {
       category: MenuCategory.sides,
       details: [
         Detail('In the Set:', 'Crispy seasoned fries, 1x Cheese dip'),
-        Detail('', 'Golden, crispy fries coated with zesty seasoning and served with a side of creamy nacho cheese sauce.'),
+        Detail(
+          '',
+          'Golden, crispy fries coated with zesty seasoning and served with a side of creamy nacho cheese sauce.',
+        ),
       ],
     ),
-    
-    
-   Package(
+
+    Package(
       name: 'Cheesy Nachos',
       label: 'Sides',
       price: 7.84,
       imageUrl: 'assets/cheesy.jpg',
       category: MenuCategory.sides,
-     details: [
+      details: [
         Detail('In the Set:', 'Tortilla chips, 1x Cheese dip'),
-        Detail('', 'Crisp tortilla chips paired with warm, velvety cheese sauce — the ultimate cheesy sidekick.'),
+        Detail(
+          '',
+          'Crisp tortilla chips paired with warm, velvety cheese sauce — the ultimate cheesy sidekick.',
+        ),
       ],
     ),
-    
 
     Package(
       name: 'Cinamon TWIEST',
@@ -157,10 +177,12 @@ class Package {
       category: MenuCategory.sides,
       details: [
         Detail('In the Set:', 'Sweet cinnamon twists'),
-        Detail('', 'Light and crunchy twists dusted with cinnamon sugar — a sweet treat to finish your meal.'),
+        Detail(
+          '',
+          'Light and crunchy twists dusted with cinnamon sugar — a sweet treat to finish your meal.',
+        ),
       ],
     ),
-    
 
     Package(
       name: 'CHOCODILLA',
@@ -168,12 +190,14 @@ class Package {
       price: 6.90,
       imageUrl: 'assets/chocodilla.jpg',
       category: MenuCategory.sides,
-     details: [
+      details: [
         Detail('In the Set:', 'Grilled chocolate quesadilla'),
-        Detail('', 'A warm grilled tortilla stuffed with rich melted chocolate — a dessert twist with a satisfying crunch.'),
+        Detail(
+          '',
+          'A warm grilled tortilla stuffed with rich melted chocolate — a dessert twist with a satisfying crunch.',
+        ),
       ],
     ),
-  
   ];
 }
 
